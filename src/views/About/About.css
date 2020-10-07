@@ -1,21 +1,37 @@
 .intro-background {
+  display: flex;
+  flex: 1; /*flex: 1: whatever has this class, give it 1 point of space in the flex*/
+  width: 100%;
+  flex-direction: row;
 }
 
 .intro-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .intro-item h1,
 h2,
 ul,
 li {
-  margin: 4px 0;
+  margin: 4px 20px;
 }
 
 .intro-item p {
-  margin: 8px 0;
+  margin: 8px 20px;
 }
 
 .intro-picture {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+}
+
+.education-item {
+  margin: 4px 20px;
+}
+
+.intro-item .fun-fact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }

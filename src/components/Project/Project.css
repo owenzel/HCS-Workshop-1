@@ -1,3 +1,4 @@
+  
 .project-background {
   display: flex;
   flex-direction: row;
@@ -9,10 +10,11 @@
   padding: 16px 0;
 }
 
+/*this creates the cool movement in color changing animation we see on the projects page...if you do that, you need to have transition attribute above, telling the broswer you want it to be animated w/ ease in & ease out*/
 .project-background:hover {
   transform: translateX(8px);
-  color: #480952;
-  background-image: linear-gradient(to left, white, #fffff0);
+  color: #020b85;
+  background-image: linear-gradient(to left, white, #e6e6e6);
 }
 
 .project-image {
@@ -20,6 +22,10 @@
   flex: 1;
   justify-content: center;
   align-items: center;
+}
+
+.project-image img {
+  width: 350px;
 }
 
 .project-info {
